@@ -42,14 +42,14 @@ release-linux.sh
 
 To create release (or debug) versions, use the script release-linux.sh < platform > < release name>.
 
-If the releasename includes the magic keyword "debug", debug information will be added to
+If the release name includes the magic keyword "debug", debug information will be added to
 the binary, and the "develop" branch of fritzing-parts will be used for the parts database.
 For examples, see the file travis.yml.
 
 xvfb-release-helper.sh
 
 This script is not thought to be called directly. It is required to enable automated
-CLI calls to Fritzing on headless systems (without GUI.
+CLI calls to Fritzing on headless systems (without GUI).
 
 
 build-linux.sh
